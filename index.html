@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20221211153625">
+	<link rel="stylesheet" href="css/style.min.css?_v=20221213205522">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,10 +29,10 @@
 
 					<nav class="menu__body">
 						<ul class="menu__list">
-							<li class="menu__item"><a href="#" class="menu__link">Переваги</a></li>
-							<li class="menu__item"><a href="#" class="menu__link">Особливості</a></li>
-							<li class="menu__item"><a href="#" class="menu__link">Відео</a></li>
-							<li class="menu__item"><a href="#" class="menu__link">Аксесуари</a></li>
+							<li class="menu__item"><a href="#" data-goto-header data-goto=".benefits" class="menu__link">Переваги</a></li>
+							<li class="menu__item"><a href="#" data-goto-header data-goto=".features" class="menu__link">Особливості</a></li>
+							<li class="menu__item"><a href="#" data-goto-header data-goto=".video-presentation" class="menu__link">Відео</a></li>
+							<li class="menu__item"><a href="#" data-goto-header data-goto=".accessories" class="menu__link">Аксесуари</a></li>
 							<li class="menu__item"><a href="#" data-goto-header data-goto=".order" class="menu__link">Придбати</a></li>
 						</ul>
 					</nav>
@@ -64,8 +64,10 @@
 					<div class="hero__img">
 						<picture><source srcset="img/hero-img.webp" type="image/webp"><img src="img/hero-img.png" alt=""></picture>
 					</div>
+
 				</div>
 			</section>
+
 			<section class="product" id="product">
 				<div class="product__container">
 					<h3 class="product__title section-title">
@@ -187,7 +189,7 @@
 
 			</section>
 
-			<section class="benefits">
+			<section data-watch="navigator" class="benefits">
 				<div class="benefits__container">
 					<h2>benefits</h2>
 					<h2 class="title section-title">
@@ -271,7 +273,7 @@
 				</div>
 			</section>
 
-			<section class="features">
+			<section data-watch="navigator" class="features">
 
 				<div class="features__container">
 					features
@@ -387,7 +389,7 @@
 				</div>
 			</section>
 
-			<section class="video-presentation">
+			<section data-watch="navigator" class="video-presentation">
 				<div class="video-presentation__container">
 					<h2 class="title section-title">
 						Відео презентація продукту
@@ -398,7 +400,7 @@
 				</div>
 			</section>
 
-			<section class="accessories">
+			<section data-watch="navigator" class="accessories">
 				<div class="accessories__container">
 					<h2 class="title section-title">Аксесуари</h2>
 					<ul class="accessories__list">
@@ -640,7 +642,7 @@
 		</div>
 	</div>
 
-	<script src="js/app.min.js?_v=20221211153625"></script>
+	<script src="js/app.min.js?_v=20221213205522"></script>
 </body>
 
 </html>
